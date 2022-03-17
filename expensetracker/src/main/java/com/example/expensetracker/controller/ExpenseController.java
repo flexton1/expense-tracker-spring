@@ -24,6 +24,7 @@ public class ExpenseController {
     
     
     @Autowired
+    
     ExpenseService expenseService;
 
     @GetMapping("/expenses")
